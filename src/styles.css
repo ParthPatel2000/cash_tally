@@ -804,3 +804,27 @@ header {
   width: 56px;
   text-align: right;
 }
+
+.qty-cell-inner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.qty-flash {
+  min-width: 28px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 700;
+  opacity: 0.75;
+  pointer-events: none;
+}
+
+.qty-flash-positive {
+  color: #15803d;
+}
+
+.qty-flash-negative {
+  color: #b91c1c;
+}
