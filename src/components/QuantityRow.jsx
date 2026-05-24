@@ -79,7 +79,7 @@ export function QuantityRow({ denom, value, onChange }) {
                     onClick={() => handleStep(-1)}
                     aria-label={`Decrease ${denom} quantity`}
                 >
-                    −
+                    <span className="qty-step-btn-symbol">-</span>
                 </button>
 
                 <input
