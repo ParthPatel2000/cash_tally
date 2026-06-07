@@ -74,6 +74,7 @@ export function QuantityRow({ denom, value, onChange }) {
         <div className="qty-cell-inner">
             <div className="qty-control">
                 <button
+                    tabIndex={-1}
                     className="qty-step-btn"
                     type="button"
                     onClick={() => handleStep(-1)}
@@ -94,6 +95,7 @@ export function QuantityRow({ denom, value, onChange }) {
                 />
 
                 <button
+                    tabIndex={-1}
                     className="qty-step-btn"
                     type="button"
                     onClick={() => handleStep(1)}
